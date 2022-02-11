@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>For echo</title>
+    <link rel="stylesheet" type="text/css" href="./css/stylesl.css">
+</head>
+
+<body>
+
+    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+            <div class="front">
+                <div class="content" id="content">
+                    <h2>Hi Echo, 我们已经在一起了：</h2>
+                    <div class="timer">
+                        <b id="d"></b> 天 <b id="h"></b> 小时 <b id="m"></b> 分 <b id="s"></b> 秒
+                    </div>
+                </div>
+            </div>
+            <div class="back">
+                <!-- 背面内容 -->
+                <div class="content-dark" id="content-dark">
+                    <h2 class="white-word">""</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="./js/fadein.js"></script>
+	<script type="text/javascript" src="./js/selectbgimg.js"></script>
+	<script type="text/javascript" src="./js/sentence.js"></script>
+
+
+</body>
+
+</html>
