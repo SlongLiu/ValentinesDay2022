@@ -26,7 +26,7 @@
 
 
 function timer(){
-	var start = new Date(2021, 5, 21, 0, 0);
+	var start = new Date(2021, 4, 21, 0, 0); // 5/21/2021
 	var t = new Date() - start;
 	var d = Math.floor(t / 1000 / 60 / 60 / 24);
 	var h = Math.floor(t / 1000 / 60 / 60 % 24);
